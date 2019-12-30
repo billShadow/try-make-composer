@@ -1,0 +1,17 @@
+{
+    "name": "v_xiaobin/try-make-composer",
+    "description": "test",
+    "authors": [
+        {
+            "name": "xiaobin",
+            "email": "v_xiaobin@baidu.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bill\\Hash\\": "src/Bill/Hash",
+            "Bill\\Md5\\": "src/Bill/Md5"
+        }
+    }
+}
